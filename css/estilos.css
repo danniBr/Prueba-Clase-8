@@ -34,7 +34,8 @@ h4 {
     z-index: 3;
     box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.7);
 }
-.donacion a {
+.donacion a,
+.btn-donacion {
 	display: inline-block;
 	background-color: #FF9800;
     padding: 12px 15px;
@@ -45,14 +46,30 @@ h4 {
         border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
 }
-.donacion a:hover {
+.donacion a:hover,
+.btn-donacion:hover {
 	text-decoration: none;
+    color: #ffffff;
 	background-color: #037b22;
 }
-.donacion i {
+.donacion i,
+.btn-donacion i {
 	padding-right: 5px;
      font-size: 1.3em;
 	}
+.btn-donacion {
+    border-radius: 5px;
+    margin: 50px 0 20px;
+}
+a:focus {
+    color: #ffffff;
+    text-decoration: none;
+}
+@media (max-width: 768px) {
+    .btn-donacion {
+        font-size: 14px;
+    }
+}
 /* Estilos navbar*/
 .navbar {
 	background-color:#ffffff;
@@ -150,6 +167,38 @@ h4 {
 }
 .caption p {
 	font-size: 1.3rem;
+}
+/*Estilos noticias*/
+.noticia {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #d1d1d1;
+}
+.blog {
+    padding:50px 0;
+    background: #f6f6f6;
+}
+.blog h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.blog h3 {
+    color: #4b4e96;
+}
+.blog .fecha {
+    color: #959595;
+    font-style: italic;
+}
+.blog img {
+    width: 100%;
+}
+.blog input {
+        display: inline-block;
+    height: 36px;
+    padding: 5px;
+    border: 1px solid #dbdbdb;
+    width: 180px;
 }
 /* Estilos footer */
 footer {

@@ -1,9 +1,9 @@
 <!doctype html>
-<html>
+<html lang="es">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Fundación Niños...</title>
+    <title>Fundación Niño y cancer</title>
     <!-- CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -24,11 +24,11 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">LOGO AQUÍ</a>
+          <a class="navbar-brand" href="index.html"><img src="images/logo-fundacion-2.png" alt="Fundación Niño y Cancer"></a>
         </div>
 
         <!-- MENÚ RESPONSIVE-->
-        <div class="collapse navbar-collapse">
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="index.html">Inicio</a></li>
             <li><a href="nosotros.html">Nosotros</a></li>
@@ -37,91 +37,79 @@
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
-    <!-- SLIDER -->
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-      </ol>
-
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <img src="images/foto-slide-1.jpg" alt="Actividad fundacion">
-          <div class="carousel-caption">
-            ...
-          </div>
-        </div>
-        <div class="item">
-          <img src="images/foto-slide-1.jpg" alt="Actividad fundacion">
-          <div class="carousel-caption">
-            ...
-          </div>
-        </div>
-      </div>
-      <!-- Controles -->
-      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-    <!-- HOME INICIO-->
-    <section class="intro">
+    <!-- Noticias -->
+    <section class="blog">
         <div class="container">
-            <h1>Bienvenidos a la Fundación...</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi soluta dolor, aperiam suscipit enim quidem. Consectetur officia laboriosam ut molestias temporibus, itaque, deserunt dolore. Fuga eos alias, ipsam aliquid quae!</p>
-            <a href="#" class="btn btn-primary" role="button">Conoce más</a>
+          <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-12">
+              <h2>Noticias</h2>
+              <article class="noticia">
+                <div class="foto-noticia">
+                  <img src="images/foto-noticia-1.jpg" class="img-responsive" alt="becas de estudio">
+                </div>
+                <h3>Finalizó proceso de postulación a Becas de Estudio 2018</h3>
+                <p class="fecha">Mayo 24, 2018 by <a href="#">Admin</a></p>
+                <p>El objetivo de este proyecto es beneficiar a jóvenes recuperados de cáncer con becas académicas, para lograr la continuidad de estudios pendientes y obtener una profesión futura y reinserción en la sociedad.</p>
+                <p>Las becas podrán atender a los jóvenes con estudios universitarios, técnicos profesionales o de centros de formación técnica. Así también podrán tener alcances  parciales y en ocasiones especiales, totales.</p>
+                <p>El año 2018 se otorgaron un total de 28 becas de las cuales 15 corresponden alumnos antiguos y 13 son para alumnos que inician sus estudios superiores  este año 2018.</p>
+                <p>Para que estas becas sean bien utilizadas, sean objetivas y sean supervisadas, elaboramos requisitos básicos y similares a los utilizados en el resto de las instituciones que entregan estos beneficios.</p>
+                <p><a href="#">VER INSTRUCTIVO DE POSTULACIÓN 2018 (formato PDF)</a></p>
+              </article>
+              <article class="noticia">
+                <div class="foto-noticia">
+                  <img src="images/foto-noticia-2.jpg" class="img-responsive" alt="Tallarinata">
+                </div>
+                <h3>Tallarinata de amor y sonrisas - Una noche de sonrisas, amor y generosidad</h3>
+                <p class="fecha">Mayo 22, 2018 by <a href="#">Admin</a></p>
+                <p>Una noche de música, sorpresas y generosidad</p>
+                <p>Con gran éxito se desarrolló nuestra Tallarinata de Amor y Sonrisas el 30 de agosto en el Estadio del Banco Central. </p>
+
+                <p>La velada estuvo animada por nuestro amigo y permanente colaborador Checho Hirane, además de contar con la extraordinaria presentación de Andrea Tessa y otros artistas invitados. </p>
+
+                <p>Agradecemos a todos los asistentes que compartieron, donaron dinero y tiempo a esta noble causa, cuyo principal objetivo es entregar una vida más llevadera a los con cáncer atendidos a en los hospitales públicos de nuestro país.</p>
+              </article>
+              <article class="noticia">
+                <div class="foto-noticia">
+                  <img src="images/foto-noticia-3.jpg" class="img-responsive" alt="carta agradecimiento">
+                </div>
+                <h3>Carta de agradecimiento a nuestros socios y colaboradores</h3>
+                <p class="fecha">Mayo 20, 2018 by <a href="#">Admin</a></p>
+                <p>Fundación Niño y Cáncer agradece sinceramente a empresas, socios, particulares, colegios y a cada uno de ustedes por su valiosa colaboración prestada durante el periodo 2016.</p>
+                <p>Para la tarea que nuestra Fundación realiza, el aporte que ustedes han realizado, significa la posibilidad de dar continuidad a nuestros proyectos en beneficios de los niños que son afectados de una enfermedad altamente impactante, como es el cáncer.</p>
+
+                <p>Sepan que las ayudas por ustedes proporcionadas se destinó al financiamiento de Becas de Estudios Superiores, Departamentos de Acogida, Mejoramiento de las instalaciones hospitalarias, actividades recreativas, entre otras actividades que la Fundación realiza permanentemente.</p>
+              </article>
+            </div>
+            <div class="col-lg-3 col-lg-offset-1 col-md-4 col-md-offset-0 col-sm-12 sidebar">
+              <a href="#" class="btn-donacion"><i class="fas fa-donate"></i>Haz tu donación aquí</a>
+              <h3>Suscríbete</h3>
+              <p>y recibe noticias de la fundación</p>
+              <form>
+                <input type="text" placeholder="E-mail">
+                <button class="btn-primary">Enviar</button>
+              </form>
+              <h3>Archivos</h3>
+              <ul>
+                <li><a href="#">Mayo 2018</a></li>
+                <li><a href="#">Abril 2018</a></li>
+                <li><a href="#">Marzo 2018</a></li>
+                <li><a href="#">Febrero 2018</a></li>
+                <li><a href="#">Enero 2018</a></li>
+              </ul>
+              <a href="#" class="btn btn-primary" role="button">Ver más</a>       
+            </div>
+          </div>
         </div>
     </section>
-    <!-- HOME NOTICIAS-->
-    <section class="destacado">
-       <div class="container">
-         <div class="row">
-          <div class="col-sm-6 col-md-4">
-            <div class="thumbnail">
-              <img src="..." alt="...">
-              <div class="caption">
-                <h3>Thumbnail label</h3>
-                <p>...</p>
-                <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <div class="thumbnail">
-              <img src="..." alt="...">
-              <div class="caption">
-                <h3>Thumbnail label</h3>
-                <p>...</p>
-                <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <div class="thumbnail">
-              <img src="..." alt="...">
-              <div class="caption">
-                <h3>Thumbnail label</h3>
-                <p>...</p>
-                <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-              </div>
-            </div>
-          </div>
-        </div>          
-      </div> <!-- Fin container destacado --> 
-    </section>
+
     <!-- FOOTER -->
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 col-md-4 mapa">
+                <div class="col-sm-12 col-md-6 mapa">
                     <h4>Ubicación</h4>
                     <div class="embed-responsive embed-responsive-16by9">
-                      <iframe class="embed-responsive-item" src="..."></iframe>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.509134447667!2d-70.53933968555107!3d-33.38387898079307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c952b6e45c13%3A0xe20a79d839401910!2sTupungato+10070%2C+Vitacura%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1ses!2scl!4v1527197612477" class="embed-responsive-item" style="border:0" allowfullscreen></iframe>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4 contacto">
@@ -130,11 +118,11 @@
                         <input type="text" placeholder="Nombre">
                         <input type="text" placeholder="Email">
                         <input type="text" placeholder="Teléfono">
-                        <button>Enviar</button>
+                        <button class="btn-primary">Enviar</button>
                     </form>
                     <p>o llamanos al 22170821 - 22170811</p>
                 </div>
-                <div class="col-sm-12 col-md-4 redes">
+                <div class="col-sm-12 col-md-2 redes">
                     <h4>Siguenos</h4>
                     <ul>
                         <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
